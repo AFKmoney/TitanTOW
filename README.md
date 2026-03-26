@@ -4,7 +4,7 @@
 
 ### Ternary-Over-Windows Performance Engine
 
-**Transform your CPU into a bare-metal compute machine.**
+**Transform your CPU into a bare-metal compute machine. Overpower your Silicon.**
 
 [![License](https://img.shields.io/badge/License-DAEMONLab_Proprietary-black?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11-blue?style=flat-square)]()
@@ -15,7 +15,7 @@
 
 ---
 
-## The Problem
+## 🛑 The Problem
 
 Every standard Windows PC is fighting itself.
 
@@ -23,27 +23,31 @@ Your game engine, your browser, your antivirus, and the OS all share the same CP
 
 The kernel doesn't know your priorities. It treats everything equally.
 
-**TitanTOW fixes this.**
+**TitanTOW fixes this.** TITAN is not a generic "PC Booster" that just closes programs you don't need. It is a **Bare-Metal Hardware Optimizer** that bypasses the Windows thread scheduler by overriding the OS affinity masks.
 
 ---
 
-## How It Works
+## 🚀 The T.O.W. Architecture
 
-TitanTOW enforces a **strict ternary partitioning** of your hardware:
+Through its proprietary **Ternary-Over-Windows (T.O.W.)** architecture, TitanTOW physically isolates your CPU cores into three strict tiers:
 
 ```
-[ +1 POSITIVE ]  →  Dedicated cores for your workload
-[  0 NEUTRAL  ]  →  Isolated zone for OS & system services
-[ -1 NEGATIVE ]  →  Starvation tier for background noise
+[ TIER +1 : POSITIVE ] → Exclusive Cores reserved strictly for Heavy Compute 
+[ TIER  0 : UNKNOWN  ] → Neutral Cores where Windows and necessary background services are confined
+[ TIER -1 : NEGATIVE ] → Starvation Cores where parasitic processes (telemetry, bloated apps) are throttled
 ```
 
-It seizes control of your thread affinity masks, bypasses the Windows scheduler, and eliminates the cache pollution that kills frame times and render performance.
+It seizes control of the silicon to eliminate the cache pollution that kills frame times and render performance. No polling. No user input. Autonomous and continuous.
 
-No polling. No user input. Autonomous and continuous — from the moment it starts.
+### Supported "TIER +1" Applications
+TITAN automatically detects and elevates the following applications out of the box. No configuration required:
+- **Gaming:** CS2, DOTA 2, Cyberpunk 2077, Elden Ring, Valorant, Fortnite, GTA V, etc.
+- **Creative:** Premiere, DaVinci Resolve, Photoshop, Blender, Unreal Engine, Unity.
+- **Dev/Compute:** Visual Studio, Rustc, Python, Node, Hashcat.
 
 ---
 
-## Measured Results
+## ⚡ Measured Results
 
 Benchmarked on **AMD Ryzen 7 5800H** (Beelink SER5):
 
@@ -58,41 +62,50 @@ Benchmarked on **AMD Ryzen 7 5800H** (Beelink SER5):
 
 ---
 
-## Installation
+## 🛠️ Installation & Usage
+
+TitanTOW is designed for professionals and enthusiasts who demand zero-latency computing. It installs as a background Windows Service and runs 24/7.
 
 1. Download **`TITAN_Installer_v2.exe`** from the [latest release](../../releases/latest)
 2. Right-click → **Run as Administrator**
-3. Follow the installer
+3. Follow the installer wizard
 
-TitanTOW installs as a background Windows Service. It launches automatically on boot — no configuration required.
+*(To uninstall: Run TITAN from the command line with `--uninstall`)*
 
-### Verify It's Working
+### Silicon Verification (Benchmark)
 
+To verify that TITAN has successfully seized control of your hardware caches:
+
+Open PowerShell as Administrator, navigate to the install directory, and run the benchmark:
 ```powershell
-# Run from: C:\Program Files\DAEMONLab\TITAN\
+cd "C:\Program Files\DAEMONLab\TITAN\"
 .\titan.exe --bench
 ```
+This bypasses standard OS metrics and reads directly from the CPU's RDTSC to show your raw L1 Cache latency, Memory bandwidth, and OS Jitter reduction.
 
 ---
 
-## Compatibility
+## ❓ FAQ
+
+**Q: Why does my CPU usage in Task Manager look different?**
+**A:** TITAN breaks standard OS telemetry. By pinning threads to specific physical cores and bypassing the Windows scheduler, the native Task Manager often misreports thread activity. Use TITAN's `--bench` flag for true measurements.
+
+**Q: Do I need to reboot?**
+**A:** No. TITAN seizes control dynamically at runtime.
+
+---
+
+## 💻 Compatibility & Tech Stack
 
 | | |
 |:---|:---|
 | **OS** | Windows 10 / 11 (64-bit) |
 | **CPU** | x86-64 with AVX2 + BMI2 + POPCNT |
-| **RAM** | 4 GB minimum |
 | **Dependencies** | Zero — no .NET, no Python, no runtimes |
-
-Works with all major games, creative apps, and development tools out of the box.
-
----
-
-## Technical Stack
 
 Built from scratch in **Rust**. Zero third-party dependencies in the hot path. Compiled with maximum optimization flags.
 
-The source code is closed and proprietary. Reverse engineering is prohibited under the DAEMONLab License.
+> **Legal:** The source code is closed and proprietary. Reverse engineering is prohibited under the DAEMONLab License.
 
 ---
 

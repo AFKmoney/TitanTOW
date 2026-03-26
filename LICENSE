@@ -1,109 +1,42 @@
-### DAEMONLab PROPRIETARY LICENSE
-**Version 1.1 (XN.CORE Edition)**
+DAEMONLab SOFTWARE LICENSE AGREEMENT
+Copyright (c) 2026 DAEMONLab
 
-**Copyright (c) 2026 DAEMONLab & Philippe‑Antoine Robert. All rights reserved.**
+1. LICENCE GRANT
+DAEMONLab grants You a commercial, non-exclusive, and worldwide license to use the XN.CORE software. This license is designed to support your professional operations while ensuring the technical integrity of the product.
 
-**Disclaimer**  
-I am not a lawyer. This draft is a practical template only and does not constitute legal advice. For a binding, jurisdiction‑specific license tailored to your product and business goals, consult a qualified intellectual property attorney in British Columbia, Canada.
+2. AUTHORIZED PROFESSIONAL USE
+Internal Operations: You may install and use the Software across your organization to support your business objectives.
 
----
+Ecosystem & Interoperability: We encourage the development of the XN.CORE ecosystem. You are authorized to create third-party interfaces, hooks, and connectors, provided they do not require modification of the core binary.
 
-### 1. DEFINITIONS
-**“Software”** means the DAEMONLab XN.CORE product distributed in compiled binary form, including all updates, patches, and related documentation.  
-**“You”** or **“Licensee”** means the natural person or legal entity that accepts this License.  
-**“Reverse‑engineering”** means any act to derive, reconstruct, or discover source code, algorithms, internal design, architecture, data structures, trade secrets, or other non‑public information from the Software by decompilation, disassembly, dynamic or static analysis, debugging, monitoring, or any other technical means.  
-**“Confidential Information”** means non‑public information disclosed by DAEMONLab, including algorithms, models, scoring engines, and core logic.
+Contractors: Your authorized consultants and service providers may use the Software on your behalf, provided they adhere to the confidentiality standards herein.
 
----
+3. TECHNICAL SAFEGUARDS & SYSTEM STABILITY
+The Software is provided in an obfuscated binary form. This measure is implemented for two critical professional reasons:
 
-### 2. GRANT OF LICENSE
-Subject to the terms of this License, DAEMONLab grants You a **limited, non‑exclusive, non‑transferable, revocable** license to use the Software in compiled binary form only for Your internal business purposes. No rights are granted to source code, APIs, or other non‑public materials except as expressly provided in writing by DAEMONLab.
+Operational Safety: Given the high-precision nature of the Ternary‑Over‑Windows (T.O.W.) logic, any unauthorized or accidental modification to the internal binary structure could lead to critical system failure. Obfuscation serves as a protective layer to prevent such displacements and maintain the stability of your deployment.
 
----
+IP Protection: To protect the trade secrets of the NanoSIREN engine and DAEMONLab’s core intellectual property.
 
-### 3. ACCEPTANCE
-This License is effective when You click “I accept,” check an acceptance box, install, or otherwise use the Software. By accepting, You agree to be bound by all terms herein. DAEMONLab will retain records of acceptance including timestamps and IP addresses as evidence of consent.
+4. PRESERVATION OF CORE TECHNOLOGY
+Licensees agree to the following professional standards:
 
----
+Binary Integrity: Unless expressly authorized in writing, reverse engineering or any attempt to de-obfuscate the Software is restricted to protect its functional stability and proprietary trade secrets.
 
-### 4. RESTRICTIONS
-You **may not**:
-- **a.** Reverse‑engineer, decompile, disassemble, or otherwise attempt to derive the source code, algorithms, or internal structure of the Software.  
-- **b.** Modify, adapt, translate, create derivative works of, or otherwise alter the Software.  
-- **c.** Redistribute, sublicense, sell, lease, lend, or transfer the Software or any copy thereof without prior written authorization from Philippe‑Antoine Robert.  
-- **d.** Use the Software for surveillance, control systems, or any application designed to restrict the freedom of individuals.  
-- **e.** Remove, alter, or obscure any proprietary notices, labels, or marks on the Software.
+Technical Respect: Circumventing technical protections or redistributing the Software "as-is" without authorization is prohibited.
 
----
+5. CONFIDENTIALITY
+The parties acknowledge that the scoring methods and isolation logic of XN.CORE constitute sensitive intellectual property. You agree to maintain the confidentiality of non-public technical documentation and not disclose internal architectural details to third parties.
 
-### 5. EXCEPTIONS AND AUTHORIZED USES
-Notwithstanding Section 4, nothing in this License is intended to limit rights that cannot be waived under applicable law. Where permitted by law, limited reverse‑engineering for the sole purpose of achieving **interoperability** with independently created software is allowed only after You have requested and been denied reasonable information from DAEMONLab and only to the extent strictly necessary for interoperability. Any such activity must be documented and performed in a manner that minimizes disclosure of DAEMONLab Confidential Information and must be promptly reported to DAEMONLab.
+6. FLEXIBILITY & CUSTOM TERMS
+This license is a baseline for professional cooperation. DAEMONLab remains open to negotiating specific addendums for white-label distribution, specific technology transfers, or customized service-level agreements (SLA).
 
----
+7. LIABILITY & WARRANTY
+The Software is provided "as-is" for professional integration.
 
-### 6. CONFIDENTIALITY AND TRADE SECRETS
-All algorithms, including the **NanoSIREN OPE/NFR scoring engine** and the **Ternary‑Over‑Windows (T.O.W.) core isolation logic**, and other non‑public technical information are DAEMONLab Confidential Information and trade secrets. You shall:
-- Maintain the confidentiality of such information using at least the same degree of care You use to protect Your own confidential information but no less than reasonable care.  
-- Not disclose Confidential Information to any third party except under a written nondisclosure agreement approved by DAEMONLab.  
-- Implement and maintain reasonable technical and organizational measures to protect Confidential Information.
+DAEMONLab’s liability is limited to the amount of license fees paid by the user during the preceding 12-month period.
 
----
+8. GOVERNING LAW
+This Agreement is governed by the laws of British Columbia, Canada. In the spirit of professional partnership, the parties agree to seek commercial mediation before initiating any formal legal proceedings.
 
-### 7. TECHNICAL PROTECTIONS AND ANTI CIRCUMVENTION
-You shall not circumvent, disable, or otherwise interfere with any technical protection measures implemented in the Software. Attempting to remove or bypass obfuscation, anti‑tamper, licensing checks, or other protections is prohibited.
-
----
-
-### 8. THIRD PARTIES AND NDAS
-If You engage contractors, service providers, or employees who require access to the Software, You must ensure they are bound by confidentiality obligations and restrictions at least as protective as those in this License.
-
----
-
-### 9. INTELLECTUAL PROPERTY
-All title, ownership rights, and intellectual property rights in and to the Software and any copies remain with DAEMONLab and/or its licensors. This License does not grant any rights in patents, trademarks, or other intellectual property except the limited license to use the Software as expressly set forth.
-
----
-
-### 10. REMEDIES
-Breach of the restrictions in this License, including unauthorized reverse‑engineering or disclosure of Confidential Information, will entitle DAEMONLab to seek injunctive relief, damages, and any other remedies available at law or in equity. You agree that monetary damages may be inadequate and that DAEMONLab may obtain injunctive relief without posting bond.
-
----
-
-### 11. LIMITATION OF LIABILITY AND WARRANTY DISCLAIMER
-THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, DAEMONLAB DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON‑INFRINGEMENT. DAEMONLAB SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO THIS LICENSE OR THE USE OF THE SOFTWARE.
-
----
-
-### 12. GOVERNING LAW AND JURISDICTION
-This License is governed by and construed in accordance with the laws of **British Columbia, Canada** without regard to conflict of law principles. The parties submit to the exclusive jurisdiction of the courts of British Columbia for any dispute arising under this License.
-
----
-
-### 13. PROTECTION OF RIGHTS
-If any provision of this License is held to be unenforceable under applicable law, that provision shall be limited or eliminated to the minimum extent necessary so that the remainder of the License remains in full force and effect.
-
----
-
-### 14. ENTIRE AGREEMENT
-This License constitutes the entire agreement between You and DAEMONLab regarding the Software and supersedes all prior or contemporaneous agreements, understandings, and communications.
-
----
-
-### 15. SEVERABILITY
-If any provision of this License is found invalid or unenforceable, the remaining provisions will continue in full force and effect.
-
----
-
-### 16. NOTICE AND CONTACT
-All notices to DAEMONLab under this License must be sent in writing to the address specified in the product documentation or to legal@daemonlab.example. Notices to You will be sent to the contact information You provide during acceptance.
-
----
-
-### 17. SURVIVAL
-Sections 4, 5, 6, 8, 9, 10, 11, 12, 13, and 15 survive termination or expiration of this License.
-
----
-
-**DAEMONLab XN.CORE (c) 2026. All rights reserved.**
-
-**By installing, clicking “I accept,” or otherwise using the Software, You acknowledge that You have read, understood, and agree to be bound by this License.**
+DAEMONLab (c) 2026. All rights reserved.
